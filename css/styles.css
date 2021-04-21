@@ -1,0 +1,23 @@
+/* This css file is used for styles that are shared on multiple pages */
+
+/* Styling for body of webpage */
+body {
+    background-color: #1E212B;
+}
+
+/* Styling for fonts */
+a, p {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2.5px;
+}
+
+.title {
+    color: #AA4465;
+    font-size: 30px;
+}
+
+/* Styling for navbar */
+nav {
+    margin-left: 45px;
+    margin-right: 45px;
+}
