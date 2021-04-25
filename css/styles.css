@@ -3,6 +3,7 @@
 @media screen and (max-width: 5000px) {
     /* Styling for navbar */
     .navbar {
+        overflow: hidden;
         display: flex;
         height: 20%;
     }
@@ -27,13 +28,18 @@
 }
 
 /* Styling for phones or devices in portrait mode */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     /* Styling for navbar */
     .navbar {
         display: flex;
         height: 20%;
         align-items: center;
         justify-content: center;
+    }
+
+    .nav-links {
+        margin-top: -15px;
+        margin-left: -15px;
     }
 
     .navbar p {
@@ -61,6 +67,10 @@ a, p, span {
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2.5px;
     text-decoration: none;
+}
+
+div .active {
+    color: #AA4465;
 }
 
 a:hover {
